@@ -280,7 +280,7 @@ ul{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 50px;
-}
+}   
 .prevent-block__button{
     width: 130px;
     height: 35px;
@@ -290,4 +290,60 @@ ul{
     color: white;
     border-radius: 8px;
     border: 0px;
+}
+.system-block{
+    width: 1440px;
+    height: 540px;
+    background-color: #58C3F0;
+    padding-top: 25px;
+    text-align: center;
+}
+.system-block__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+.system-block__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.system-block__cards-block{
+    width: 1120px;
+    height: 385px;
+    display: inline-block;
+}
+.system-block__card{
+    width: 500px;
+    height: 120px;
+    background-color: #F3F3F3;
+    padding-top: 20px;
+}
+.system-block__card-img{
+    float: left;
+    margin-left: 40px;
+    margin-right: 25px;
+}
+.system-block__card-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    
+}
+.system-block__card-subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 10px;
 }
