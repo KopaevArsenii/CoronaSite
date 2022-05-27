@@ -291,14 +291,14 @@ ul{
     border-radius: 8px;
     border: 0px;
 }
-.system-block{
+.symptoms-block{
     width: 1440px;
     height: 540px;
     background-color: #58C3F0;
     padding-top: 25px;
     text-align: center;
 }
-.system-block__title{
+.symptoms-block__title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -306,30 +306,34 @@ ul{
     line-height: 32px;
     margin-bottom: 15px;
 }
-.system-block__subtitle{
+.symptoms-block__subtitle{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
 }
-.system-block__cards-block{
+.symptoms-block__cards-block{
     width: 1120px;
     height: 385px;
-    display: inline-block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
-.system-block__card{
+.symptoms-block__card{
     width: 500px;
     height: 120px;
     background-color: #F3F3F3;
     padding-top: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 20px;
 }
-.system-block__card-img{
+.symptoms-block__card-img{
     float: left;
     margin-left: 40px;
     margin-right: 25px;
 }
-.system-block__card-title{
+.symptoms-block__card-title{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -338,7 +342,7 @@ ul{
     text-align: left;
     
 }
-.system-block__card-subtitle{
+.symptoms-block__card-subtitle{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
